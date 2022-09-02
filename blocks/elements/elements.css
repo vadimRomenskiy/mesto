@@ -1,0 +1,9 @@
+.elements {
+    max-width: 880px;
+}
+
+@media screen and (max-width:  998px) {
+    .elements {
+        max-width: 282px;
+    }
+}

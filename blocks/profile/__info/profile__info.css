@@ -1,0 +1,18 @@
+.profile__info {
+    max-width: 336px;
+    margin-left: 30px;
+    display: grid;
+    grid-template-areas: 
+    "name button__edit"
+    "text .";
+    gap: 8px 18px;
+    align-items: center;                
+}
+
+@media screen and (max-width:  998px) {
+    .profile__info {
+        max-width: 282px;
+        margin-top: 26px;
+        gap: 3px 11px;
+    }
+}
