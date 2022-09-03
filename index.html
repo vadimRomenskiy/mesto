@@ -4,14 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Mesto</title>
+    <title>Место</title>
     <link rel="stylesheet" href="./pages/index.css">
 </head>
 <body class="root">
     <div class="page">
         <header class="header page__header">
-            <img class="header__logo" src="./images/header-logo.png" alt="Логотип">
-            <div class="header__line"></div>
+            <img class="header__logo" src="./images/header-log.svg" alt="Логотип">
         </header>
         <main class="content page__content">
             <section class="profile">
@@ -75,18 +74,18 @@
         </footer>
     </div>
 
-    <section class="popup">
+    <div class="popup">
         <div class="popup__container">
             <button class="popup__close" type="button" aria-label="Закрыть"></button>
             <h2 class="popup__title">Редактировать профиль</h2>
             <form class="popup__form" name="form" method="post" action="#">
-                <input class="popup__input popup__input_name" name="user" required type="text" placeholder="Мое имя">
-                <input class="popup__input popup__input_profession" name="job" required type="text"
+                <input class="popup__input popup__input-name" name="user" required type="text" placeholder="Мое имя">
+                <input class="popup__input popup__input-profession" name="job" required type="text"
                     placeholder="Моя профессия">
                     <button class="popup__submit-button" type="submit">Сохранить</button>
             </form>
         </div>
-    </section>
+    </div>
     <script src="./scripts/index.js"></script>
 </body>
 </html>

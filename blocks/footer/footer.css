@@ -1,5 +1,5 @@
 .footer {
-    min-width: 318px;
+    max-width: 318px;
 }
 
 @media screen and (max-width:  998px) {
