@@ -5,6 +5,6 @@
 
 @media screen and (max-width:  582px) {
     .page__header {
-        margin: 0 auto;
+        margin: 0;
     }
 }
